@@ -606,6 +606,22 @@ body {
 	border-radius: 20px;
 	font-weight: 700;
 }
+#content main .table-data .analysis .salesanalysis {
+	width: 100%;
+}
+#content main .table-data .analysis .salesanalysis .generalsalesanalysis{
+	width: 100%;
+	margin-bottom: 16px;
+	background: var(--grey);
+	border-radius: 10px;
+	padding: 14px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#content main .table-data .details .product details .bx {
+	cursor: pointer;
+}
 
 
 /* MAIN */
