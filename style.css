@@ -490,6 +490,7 @@ body {
 }
 
 
+
 #content main .table-data .details {
 	flex-grow: 1;
 	flex-basis: 300px;
@@ -542,7 +543,7 @@ body {
 
 
 
-<!--#content main .table-data .details {
+#content main .table-data .details {
 	flex-grow: 1;
 	flex-basis: 300px;
 }
@@ -562,54 +563,50 @@ body {
 #content main .table-data .details .product details .bx {
 	cursor: pointer;
 }
-#content main .table-data .todo .todo-list li.completed {
-	border-left: 10px solid var(--blue);
-}
-#content main .table-data .todo .todo-list li.not-completed {
-	border-left: 10px solid var(--orange);
-}
-#content main .table-data .todo .todo-list li:last-child {
-	margin-bottom: 0;
 
-	
+
+
+
+#content main .table-data .analysis {
+	flex-grow: 1;
+	flex-basis: 500px;
 }
-#content main .analysis{
-	display: flex;
-	flex-wrap: wrap;
-	grid-gap: 24px;
-	margin-top: 24px;
+#content main .table-data .analysis table {
 	width: 100%;
-	color: var(--dark);
+	border-collapse: collapse;
 }
-#content main .analysis > div {
-	border-radius: 20px;
-	background: var(--light);
-	padding: 24px;
-	overflow-x: auto;
+#content main .table-data .analysis table th {
+	padding-bottom: 12px;
+	font-size: 13px;
+	text-align: left;
+	border-bottom: 1px solid var(--grey);
 }
-#content main .analysis .head {
+#content main .table-data .analysis table td {
+	padding: 16px 0;
+}
+#content main .table-data .analysis table tr td:first-child {
 	display: flex;
 	align-items: center;
-	grid-gap: 16px;
-	margin-bottom: 24px;
+	grid-gap: 12px;
+	padding-left: 6px;
 }
-#content main .analysis .head .bx {
-	cursor: pointer;
-
-}
-#content main .analysis .body {
+#content main .table-data .analysis table td img {
 	width: 36px;
 	height: 36px;
 	border-radius: 50%;
 	object-fit: cover;
 }
-<!--#content main .table-data .analysis {
-	flex-grow: 1;
-	flex-basis: 300px;
+#content main .table-data .analysis table tbody tr:hover {
+	background: var(--grey);
 }
-#content main .table-data .analysis .thead {
-	width: 100%;
+#content main .table-data .analysis table tr td .status {
+	font-size: 10px;
+	padding: 6px 16px;
+	color: var(--light);
+	border-radius: 20px;
+	font-weight: 700;
 }
+
 
 /* MAIN */
 /* CONTENT */
