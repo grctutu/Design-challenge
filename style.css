@@ -622,6 +622,18 @@ body {
 #content main .table-data .details .product details .bx {
 	cursor: pointer;
 }
+#content main.btn {
+border: none;
+background-color: inherit;
+padding: 14px 28px;
+font-size: 20px;
+cursor: pointer;
+display: inline-block;
+}
+/** on mouse-over */
+.btn:hover {background: #eee;}
+.viewall {color: rgb(0, 85, 128);}
+
 
 
 /* MAIN */
